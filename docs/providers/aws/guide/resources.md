@@ -83,7 +83,7 @@ If you are unsure how a resource is named, that you want to reference from your 
 |ApiGateway::Authorizer | {normalizedFunctionName}ApiGatewayAuthorizer            | HelloApiGatewayAuthorizer     |
 |ApiGateway::Deployment | ApiGatewayDeployment{instanceId}                      | ApiGatewayDeployment12356789  |
 |ApiGateway::ApiKey     | ApiGatewayApiKey{SequentialID}                          | ApiGatewayApiKey1             |
-|ApiGateway::UsagePlan  | ApiGatewayUsagePlan                          | ApiGatewayUsagePlan             |
+|ApiGateway::UsagePlan  | ApiGatewayUsagePlan{OptionalNormalizedName}             | ApiGatewayUsagePlanFree             |
 |ApiGateway::UsagePlanKey     | ApiGatewayUsagePlanKey{SequentialID}                          | ApiGatewayUsagePlanKey1             |
 |SNS::Topic             | SNSTopic{normalizedTopicName}                           | SNSTopicSometopic             |
 |SNS::Subscription      | {normalizedFunctionName}SnsSubscription{normalizedTopicName}   | HelloSnsSubscriptionSomeTopic             |
