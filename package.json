@@ -58,7 +58,9 @@
     "integration-test-cleanup": "node scripts/integration-test-cleanup.js",
     "simple-integration-test": "jest --maxWorkers=5 simple-suite",
     "complex-integration-test": "jest --maxWorkers=5 integration",
-    "postinstall": "node ./scripts/postinstall.js"
+    "postinstall": "node ./scripts/postinstall.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "jest": {
     "testRegex": "(\\.|/)(tests)\\.js$",
@@ -131,6 +133,8 @@
     "update-notifier": "^2.2.0",
     "uuid": "^2.0.2",
     "write-file-atomic": "^2.1.0",
-    "yaml-ast-parser": "0.0.34"
-  }
+    "yaml-ast-parser": "0.0.34",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
