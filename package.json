@@ -116,7 +116,7 @@
     "lodash": "^4.13.1",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "moment": "^2.13.0",
+    "moment": "^2.29.4",
     "nanomatch": "^1.2.13",
     "node-fetch": "^1.6.0",
     "object-hash": "^1.2.0",
